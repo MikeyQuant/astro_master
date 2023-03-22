@@ -175,7 +175,7 @@ elif mode=="Measuring Brightness":
         if x == 130:
             continue
 
-        c[ii].image(Image.open(f"astro_master/IMG_0{x}.png"))
+        c[ii].image(Image.open(f"astro_master/IMG_0{x}.jpg"))
         ii += 1
     st.write(
         "Venus and a Full Moon have are significantly brighter than Sirius. This is due to their close proximity to earth. If we were to observe the absolute magnitude, Sirius would be the brightest object.")
@@ -195,7 +195,7 @@ elif mode=="Circumpolar Stars":
     for i in range(120,123):
         ii=i-120
 
-        cs[ii].image(f"IMG_0{i}.png")
+        cs[ii].image(f"IMG_0{i}.jpg")
     st.subheader("Analysis")
     st.write("This was a very interesting lab because I learned something through my own findings. As you can see in the pictures, as time goes on"
              " the constelation Ursa Major rotates counter clockwise. However, the star Polaris, which is in Ursa Minor, remains fixed. With the movement of the stars occuring because of earths rotation,"
