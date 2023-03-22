@@ -1,0 +1,6 @@
+geocoder
+pandas
+plotly
+skychart
+streamlit
+streamlit_js_eval
