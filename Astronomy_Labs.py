@@ -5,7 +5,7 @@ from streamlit_js_eval import get_geolocation
 import plotly.express as px
 import pandas as pd
 import geocoder
-
+from PIL import Image
 st.sidebar.header("Astronomy Labs:")
 mode=st.sidebar.radio("Select Lab:",["Scale of the Universe","To Scale","Finding Your Way","Sky Safari Scavenger Hunt","Circumpolar Stars","Where Does Space Begin?","Evidence of Ninth Planet","Discovering Asterisms","Astrobites","Measuring Brightness","Our Galaxy","Cosmic Minute"])
 if mode=="Discovering Asterisms":
@@ -175,7 +175,7 @@ elif mode=="Measuring Brightness":
         if x == 130:
             continue
 
-        c[ii].image(f"IMG_0{x}.png")
+        c[ii].image(Image.open(f"IMG_0{x}.png"))
         ii += 1
     st.write(
         "Venus and a Full Moon have are significantly brighter than Sirius. This is due to their close proximity to earth. If we were to observe the absolute magnitude, Sirius would be the brightest object.")
