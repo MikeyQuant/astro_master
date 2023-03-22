@@ -1,0 +1,12 @@
+Earth's diameter: 1.27 x 10^7 m
+Distance from Earth to Moon: 3.84 x 10^8 m
+Distance from Earth to Sun: 1.50 x 10^11 m
+Distance from Sedna to Sun: 9.67 x 10^12 m
+Distance from Proxima Centauri to Alpha Centauri A: 4.37 x 10^16 m
+Distance from Sun to Proxima Centauri: 4.24 x 10^16 m
+Diameter of Milky Way Galaxy: 1.00 x 10^20 m
+Earth's distance from Andromeda Galaxy: 2.50 x 10^22 m
+Diameter of local group: 1.20 x 10^23 m
+Diameter of Virgo Cluster: 2.00 x 10^24 m
+Diameter of Virgo Supercluster: 8.00 x 10^25 m
+Diameter of observable universe: 8.80 x 10^26 m

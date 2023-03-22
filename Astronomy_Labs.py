@@ -107,7 +107,7 @@ if mode=="Discovering Asterisms":
     if st.button("re-run"):
         st._rerun()
 elif mode=="Scale of the Universe":
-    file = open("/Users/mikebelliveau/Desktop/Python/Astronomy/astronomy-lab-1/astro_scale.txt", "r").read()
+    file = open("astro_scale.txt", "r").read()
 
     ls = []
     for m in file.split("\n"):
