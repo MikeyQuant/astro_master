@@ -175,7 +175,7 @@ elif mode=="Measuring Brightness":
         if x == 130:
             continue
 
-        c[ii].image(Image.open(f"./IMG_0{x}.png"))
+        c[ii].image(Image.open(f"astro_master/IMG_0{x}.png"))
         ii += 1
     st.write(
         "Venus and a Full Moon have are significantly brighter than Sirius. This is due to their close proximity to earth. If we were to observe the absolute magnitude, Sirius would be the brightest object.")
